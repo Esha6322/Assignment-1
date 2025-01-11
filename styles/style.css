@@ -1,4 +1,4 @@
-.fira-sans-regular {
+.fira-sans-normal {
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
@@ -33,7 +33,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   
-  .nav-sign-in:hover {
+  .bd-sign-in:hover {
     box-shadow: 0 8px 16px rgba(78, 68, 10, 0.4);
   }
   
@@ -70,20 +70,20 @@
   }
   
   /* navigation-bar-styles */
-  .nav-container {
+  .bd-container {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
     margin-bottom: 50px;
   }
   
-  .nav-title {
+  .bd-title {
     font-weight: bold;
     font-size: 32px;
     margin-top: 12px;
   }
   
-  .nav-sign-in {
+  .bd-sign-in {
     padding: 15px 30px;
     border-radius: 8px;
     color: #006a50;
@@ -95,7 +95,7 @@
   
   /* banner-styles */
   
-  .banner-container {
+  .ban-container {
     display: flex;
     justify-content: space-around;
     background-color: #c6e4d6;
@@ -105,19 +105,19 @@
     margin-bottom: 50px;
   }
   
-  .banner-sub-title {
+  .ban-sub-title {
     margin-bottom: 16px;
     font-size: 20px;
     font-weight: 600;
     opacity: 60%;
   }
   
-  .banner-box-left {
+  .ban-left-box {
     text-align: start;
     margin-top: 40px;
   }
   
-  .banner-title {
+  .ban-title {
     font-weight: bold;
     font-size: 50px;
     margin-bottom: 24px;
@@ -153,21 +153,21 @@
     opacity: 70%;
   }
   
-  .vision-box1 {
+  .v-box1 {
     background-color: #d5e1f5;
     padding: 15px;
     border-radius: 18px;
     width: 350px;
   }
   
-  .vision-box2 {
+  .v-box2 {
     background-color: #c6e4d6;
     width: 350px;
     padding: 15px;
     border-radius: 18px;
   }
   
-  .vision-box3 {
+  .v-box3 {
     background-color: #f7ebcf;
     width: 350px;
     padding: 15px;
@@ -181,7 +181,7 @@
   
   /* learn more button  */
   
-  .learn-more-btn1 {
+  .lm-btn1 {
     background-color: #6593e4;
     border-radius: 8px;
     padding: 11px 20px;
@@ -189,7 +189,7 @@
     border: none;
   }
   
-  .learn-more-btn2 {
+  .lm-btn2 {
     background-color: #22bd74;
     border-radius: 8px;
     padding: 11px 20px;
@@ -197,7 +197,7 @@
     border: none;
   }
   
-  .learn-more-btn3 {
+  .lm-btn3 {
     background-color: #ffc239;
     border-radius: 8px;
     padding: 11px 20px;
@@ -207,7 +207,7 @@
   
   /* Qoute-section */
   
-  .quote-section {
+  .qt-sec {
     background-color: #ffffff;
     border-radius: 16px;
     background-image: url(../assets/quote-bg.png);
@@ -219,23 +219,23 @@
     margin-bottom: 50px;
   }
   
-  .Dr-qoute {
+  .yunus-qoute {
     margin-bottom: 13px;
     opacity: 70%;
   }
-  .Dr-name {
+  .yunus-name {
     margin-bottom: 5px;
     font-size: 20px;
     font-weight: 600;
     opacity: 80%;
   }
   
-  .Dr-title {
+  .yunus-title {
     opacity: 70%;
   }
   
   /* recent news section  */
-  .recent-news-description {
+  .rcnt-news-description {
     margin-top: 10px;
     opacity: 70%;
     margin-bottom: 20px;
@@ -243,7 +243,7 @@
   
   /* Bangladesh achievement box 1*/
   
-  .achievement-box1 {
+  .achievement-b1 {
     display: flex;
     background-color: #ffffff;
     border-radius: 24px;
@@ -275,7 +275,7 @@
   
   /* Bangladesh achievement box 2*/
   
-  .achievement-box2 {
+  .achievement-b2 {
     display: flex;
     background-color: #ffffff;
     border-radius: 24px;
@@ -292,7 +292,7 @@
   
   /* Donate section  */
   
-  .donate-first-section {
+  .donate-sec1 {
     justify-content: center;
     text-align: center;
     margin-bottom: 35px;
@@ -305,7 +305,7 @@
   
   /* money box section */
   
-  .money-sectoin {
+  .money-sec {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -338,7 +338,7 @@
   }
   
   /* Newsletter section   */
-  .news-letter {
+  .news-ltr {
     padding: 80px 100px;
     border-radius: 24px;
     background-color: #c6e4d6;
@@ -347,19 +347,19 @@
     margin-bottom: 50px;
   }
   
-  .news-letter-title {
+  .news-ltr-title {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 16px;
   }
   
-  .news-letter-description {
+  .news-ltr-description {
     margin-bottom: 24px;
     opacity: 70%;
   }
   
-  .news-letter-buttons {
+  .news-ltr-buttons {
     display: flex;
     margin-bottom: 32px;
   }
@@ -371,20 +371,20 @@
     border-color: none;
   }
   
-  .news-letter-end {
+  .news-ltr-end {
     opacity: 70%;
   }
   
   /* footer  */
   
-  .ending-title {
+  .end-title {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  .ending-images {
+  .end-images {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
